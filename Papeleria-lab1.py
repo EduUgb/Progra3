@@ -36,7 +36,7 @@ class Cuaderno:
 class Lapiz:
     indice = 0
     def __init__(self, tipo, precioCompra ):
-        self.marca = "RAYAS"
+        self.marca = "RAYITAS"
         self.tipo = str(tipo)
         self.precioCompra = float(precioCompra) 
         self.precioVenta =  self.CalculopVenta()
